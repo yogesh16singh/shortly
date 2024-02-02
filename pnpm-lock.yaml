@@ -28,6 +28,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@repo/tailwind-config':
+        specifier: workspace:*
+        version: link:../../packages/tailwind-config
       '@repo/ui':
         specifier: workspace:*
         version: link:../../packages/ui
